@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.pics-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pic {
+    max-width: 250px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.pic:hover {
+    transform: scale(1.1);
+}
+
+.selected {
+    transform: scale(1.1);
+}

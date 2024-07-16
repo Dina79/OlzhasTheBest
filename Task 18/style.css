@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: blue;
+    color:white
+}

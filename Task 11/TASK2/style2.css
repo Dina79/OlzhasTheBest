@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task-manager {
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-descr {
+    display: flex;
+    gap: 20px;
+}
+
+.checked {
+    background-color: #CBE3D9;
+}
